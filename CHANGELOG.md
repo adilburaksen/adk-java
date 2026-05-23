@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.4.0](https://github.com/google/adk-java/compare/v1.3.0...v1.4.0) (2026-05-23)
+
+
+### Features
+
+* Add GcsOffloader for asynchronously uploading content to Google Cloud Storage ([5bad20a](https://github.com/google/adk-java/commit/5bad20aff179c1fd091cd6f14d5fc1d730023d70))
+* Add GcsOffloader for asynchronously uploading content to Google Cloud Storage ([a1d2c1c](https://github.com/google/adk-java/commit/a1d2c1cd2799f8729bc736a2fc0117286e31c1dd))
+* Add streaming support for ChatCompletionsHTTPClient ([384a0c5](https://github.com/google/adk-java/commit/384a0c58e3c3bd76ef8ef1c0c872fa35008eac81))
+* Add tools and toolset to use SkillSource in ADK agents ([5ee51fd](https://github.com/google/adk-java/commit/5ee51fd1f3ecd9445fa559ee66fe426df7008ea8))
+* Add tools and toolset to use SkillSource in ADK agents ([83a4b71](https://github.com/google/adk-java/commit/83a4b71d11ab5ae0d119730086436b3c96127fd2))
+
+
+### Bug Fixes
+
+* Resolve IllegalArgumentException for text MIME types in LangChain4j adapter ([6ad2043](https://github.com/google/adk-java/commit/6ad204372ea8afd330132507f1598d669a8f8b66))
+* revert "Suppress empty-text-only chunks from streaming responses while preserving carried metadata" ([69638df](https://github.com/google/adk-java/commit/69638df9ccd9939ba358672fdb00f0c0e88ffc71))
+* Suppress empty-text-only chunks from streaming responses while preserving carried metadata ([b4791ef](https://github.com/google/adk-java/commit/b4791ef362840e79d008221f272992532c4732cd))
+
 ## [1.3.0](https://github.com/google/adk-java/compare/v1.2.0...v1.3.0) (2026-05-13)
 
 
